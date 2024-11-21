@@ -16,6 +16,8 @@ This project aims to detect credit card fraud using machine learning techniques.
 
 The project directory is organized as follows:
 
+```bash
+
 cmse492_project/
 │
 ├── Data/
@@ -44,9 +46,7 @@ cmse492_project/
 │
 ├── README.md
 └── .gitignore 
-
-cmse492_project/ │ ├── Data/ │ ├── raw/ # Contains the raw dataset │ └── preprocessing/ # Contains preprocessed data and feature-engineered files │ ├── Features/ # Contains files related to feature engineering │ ├── Models/ # Contains files for model training, tuning, and evaluation │ ├── train_svm/ # Scripts for training the SVM model │ └── tuning_evaluation/ # Scripts for tuning model parameters and evaluating performance │ ├── Notebooks/ # Contains Jupyter notebooks for exploratory data analysis and final results │ ├── exploratory/ # Notebooks for initial data exploration │ └── final/ # Final results and analysis │ ├── Reports/ # Contains project reports and findings │ ├── Tests/ # Contains test scripts for verifying code functionality │ ├── Visualizations/ # Contains visualization outputs and related scripts │ ├── README.md # This README file # Git ignore file for excluding unnecessary files
-
+```
 ## Setup Instructions
 
 To set up and run the code in this project, follow these steps:
@@ -55,3 +55,4 @@ To set up and run the code in this project, follow these steps:
    ```bash
    git clone https://github.com/shirle21/cmse492_project.git
    cd cmse492_project
+
