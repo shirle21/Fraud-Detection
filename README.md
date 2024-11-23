@@ -55,4 +55,7 @@ To set up and run the code in this project, follow these steps:
    ```bash
    git clone https://github.com/shirle21/cmse492_project.git
    cd cmse492_project
+   ```
+2. **Downloading the Data**
+    Download the dataset 'creditcard.csv' from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and upload it into Data/preprocessing 
 
