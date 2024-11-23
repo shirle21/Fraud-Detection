@@ -32,7 +32,7 @@ cmse492_project/
 │   ├── train svm/
 │   └──  tuning and evaluation/
 │
-├── Notebooks/ # Contains Jupyter notebooks for exploratory data analysis and final resul
+├── Notebooks/ # Contains Jupyter notebooks for exploratory data analysis and final results
 │   ├── Exploratory/
 │   └── Final/
 │
