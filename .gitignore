@@ -5,3 +5,6 @@ __pycache__/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+#Ignore Data Files (Too big for github) 
+**/creditcard.csv
+**/processed.csv
