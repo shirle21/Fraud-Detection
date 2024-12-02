@@ -2,14 +2,15 @@
 
 ## Project Overview
 
-This project aims to detect credit card fraud using machine learning techniques. Utilizing a dataset of transactions made by European cardholders in September 2013, we aim to develop a model that effectively identifies fraudulent transactions among a significantly larger set of non-fraudulent ones. This project builds upon previous work to improve the accuracy of fraud detection models.
+This project aims to detect credit card fraud using machine learning technique trained off a dataset of transactions made by European cardholders in September 2013, particurly with SVM and SGDs.
 
 ## Project Objectives
 
 - Analyze and preprocess credit card transaction data.
 - Engineer relevant features to enhance model performance.
 - Visualize data to identify patterns and anomalies.
-- Implement and evaluate machine learning models, particularly Support Vector Machines (SVM), for fraud detection.
+- Create a Baseline Model to build off 
+- Implement and evaluate Support Vector Machine and Stochastic Gradient Descent Models
 - Provide a comprehensive analysis of results and insights gained throughout the project.
 
 ## Folder Structure
@@ -22,19 +23,20 @@ cmse492_project/
 │
 ├── Data/
 │   ├── Raw/ # Contains the raw dataset 
-│   └── Oreprocessing/ # Contains preprocessed data and feature-engineered files
+│   └── Preprocessing/ # Contains preprocessed data and feature-engineered files
 │
-├── models/ # Contains files for model training, tuning, and evaluation 
-│   ├── SVM
-│   ├── SGD
-│   └── BaselineModels 
+├── Models/ 
+│   ├── SVM/ #Contains all SVM Models
+│   ├── SGD/ #Contains all SGD Models
+│   └── BaselineModels/ #Contains Baseline Models
 │
 ├── Notebooks/ # Contains Jupyter notebooks for exploratory data analysis and final results
-│   ├── Exploratory/
+│   └── Exploratory/
 │
-├── reports/ # Contains project reports and findings
-│   ├── interim/
-│   └── final/
+├── Reports/ # Contains project reports and findings
+│   ├── Interim/
+│   └── Final/
+├── Visualizations/ #Contains Compact Visualization File
 │
 ├── README.md
 └── .gitignore 
@@ -49,5 +51,5 @@ To set up and run the code in this project, follow these steps:
    cd cmse492_project
    ```
 2. **Downloading the Data**
-    Download the dataset 'creditcard.csv' from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and upload it into Data/preprocessing 
+    Download the dataset 'creditcard.csv' from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and upload it into ...Data/PreProcessing and ..Data/Raw
 
