@@ -21,28 +21,20 @@ The project directory is organized as follows:
 cmse492_project/
 │
 ├── Data/
-│   ├── raw/ # Contains the raw dataset 
-│   └── preprocessing/ # Contains preprocessed data and feature-engineered files
-│
-├── Features/  # Contains files related to feature engineering
-│   ├── exploratory/
-│   └── final/
+│   ├── Raw/ # Contains the raw dataset 
+│   └── Oreprocessing/ # Contains preprocessed data and feature-engineered files
 │
 ├── models/ # Contains files for model training, tuning, and evaluation 
-│   ├── train svm/
-│   └──  tuning and evaluation/
+│   ├── SVM
+│   ├── SGD
+│   └── BaselineModels 
 │
 ├── Notebooks/ # Contains Jupyter notebooks for exploratory data analysis and final results
 │   ├── Exploratory/
-│   └── Final/
 │
 ├── reports/ # Contains project reports and findings
 │   ├── interim/
 │   └── final/
-│
-├── Tests/
-│
-├── Visualizations/
 │
 ├── README.md
 └── .gitignore 
